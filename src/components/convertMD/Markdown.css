@@ -1,0 +1,57 @@
+/* convertMarkdown.css */
+
+.markdown-default h1,
+.markdown-default h2,
+.markdown-default h3,
+.markdown-default h4,
+.markdown-default h5,
+.markdown-default h6 {
+  font-size: revert;
+  font-weight: revert;
+  margin: revert;
+}
+
+.markdown-default p {
+  font-size: revert;
+  margin: revert;
+  line-height: revert;
+}
+
+.markdown-default ul,
+.markdown-default ol {
+  list-style-type: revert;
+  margin: revert;
+  padding: revert;
+}
+
+.markdown-default li {
+  margin: revert;
+  padding: revert;
+}
+
+.markdown-default a {
+  color: revert;
+  text-decoration: revert;
+}
+
+.markdown-default pre > div {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.markdown-default img {
+  max-width: 800px;
+  height: auto;
+}
+
+/* .markdown-default blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  color: #555;
+}
+
+.markdown-default pre {
+  padding: 10px;
+  background-color: #F5F5F5;
+} */
